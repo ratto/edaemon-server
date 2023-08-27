@@ -1,6 +1,6 @@
 import AttributeEnum from "./enums/AttributeEnum";
 
-abstract class CombatSkill {
+class CombatSkill {
   Id: number | null;
   Name: string;
   AtkValue: number;
