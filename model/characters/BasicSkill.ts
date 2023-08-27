@@ -1,10 +1,10 @@
 import AttributeEnum from "../enums/AttributeEnum";
 
 class BasicSkill {
-  Id: number | null;
-  Name: string;
-  UsedAttribute: AttributeEnum;
-  Value: number;
+  public Id: number | null;
+  public Name: string;
+  public UsedAttribute: AttributeEnum;
+  public Value: number;
 
   constructor (name: string,
               usedAttribute: AttributeEnum,

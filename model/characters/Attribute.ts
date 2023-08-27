@@ -1,12 +1,12 @@
-abstract class Attributes {
-  Strength: number;
-  Dexterity: number;
-  Agility: number;
-  Constitution: number;
-  Intelligence: number;
-  WillPower: number;
-  Perception: number;
-  Charisma: number;
+abstract class Attribute {
+  public Strength: number;
+  public Dexterity: number;
+  public Agility: number;
+  public Constitution: number;
+  public Intelligence: number;
+  public WillPower: number;
+  public Perception: number;
+  public Charisma: number;
 
   constructor(strength: number,
               dexterity: number,
@@ -27,4 +27,4 @@ abstract class Attributes {
   }
 }
 
-export default Attributes;
+export default Attribute;

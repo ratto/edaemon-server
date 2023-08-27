@@ -3,10 +3,10 @@ import BasicSkill from "./BasicSkill";
 import CombatSkill from "./CombatSkill";
 
 abstract class Character {
-  Id: number | null;
-  Attribute: Attribute;
-  BasicSkillList: Array<BasicSkill>;
-  CombatSkillList: Array<CombatSkill>;
+  public Id: number | null;
+  public Attribute: Attribute;
+  public BasicSkillList: Array<BasicSkill>;
+  public CombatSkillList: Array<CombatSkill>;
 
   constructor(attribute: Attribute,
               basicSkillList: Array<BasicSkill>,

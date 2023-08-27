@@ -1,6 +1,6 @@
 class Player {
-  Id: number;
-  Name: string;
+  public Id: number;
+  public Name: string;
 
   constructor (id: number, name: string) {
     this.Id = id;

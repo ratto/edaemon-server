@@ -1,11 +1,11 @@
 import AttributeEnum from "../enums/AttributeEnum";
 
 class CombatSkill {
-  Id: number | null;
-  Name: string;
-  AtkValue: number;
-  DefValue: number;
-  Attribute: AttributeEnum
+  public Id: number | null;
+  public Name: string;
+  public AtkValue: number;
+  public DefValue: number;
+  public Attribute: AttributeEnum
 
   constructor (name: string, atk: number, def: number, usedAttribute: AttributeEnum, id: number | null) {
     this.Name = name;
