@@ -1,4 +1,4 @@
-import AttributeEnum from "./enums/AttributeEnum";
+import AttributeEnum from "../enums/AttributeEnum";
 
 class CombatSkill {
   Id: number | null;

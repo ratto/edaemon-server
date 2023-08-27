@@ -1,4 +1,5 @@
 import Attribute from "./Attribute";
+import BasicSkill from "./BasicSkill";
 import Character from "./Character";
 import CombatSkill from "./CombatSkill";
 
@@ -9,8 +10,8 @@ class PlayerCharacter extends Character {
   HpTotal: number;
   HpCurrent: number;
 
-  constructor (name: string, attribute: Attribute, combatSkill: CombatSkill) {
-    super(attribute, combatSkill);
+  constructor (name: string, attribute: Attribute, basicSkillList: Array<BasicSkill>, combatSkillList: Array<CombatSkill>) {
+    super(attribute, basicSkillList, combatSkillList)
     this.Name = name;
     this.Level = 1;
     this.Experience = 0;
